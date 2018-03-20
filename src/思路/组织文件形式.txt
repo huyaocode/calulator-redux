@@ -1,0 +1,34 @@
+├── components
+│   ├── Calculator.js
+│   ├── Counter.js
+│   └── style.css
+├── index.js
+├── Redux
+│   ├── Actions
+│   │   ├── actionsCalculator.js
+│   │   └── actionsCounter.js
+│   ├── Containers
+│   │   ├── calculater.js
+│   │   └── counter.js
+│   ├── Reducer
+│   │   ├── funcCalculator
+│   │   │   └── dealExpression.js
+│   │   └── reducer.js
+│   └── Store
+│       └── store.js
+└── Router
+    └── router.js
+
+第一层目录结构为:
+{
+    components      UI视图
+    Redux           业务逻辑
+    Router          路由跳转
+    index.js        文件入口
+}
+
+Redux中
+├── Actions     行为 Action 描述当前发生的事情。改变 State 的唯一办法，就是使用 Action
+├── Containers  容器组件 负责管理数据和业务逻辑
+├── Reducer     State 的计算过程就叫做 Reducer。Reducer 是一个函数，它接受 Action 和当前 State 作为参数，返回一个新的 State。
+└── Store       Store 就是保存数据的地方，你可以把它看成一个容器。整个应用只能有一个 Store。

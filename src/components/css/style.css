@@ -1,0 +1,63 @@
+.calculator{
+    width: 600px;
+    height: 560px;
+    margin: 0px auto;
+    background-color: rgb(105,113,124);
+    border-radius: 15px;
+    text-align: center;
+}
+.screen{
+    margin: 22px;
+    width: 550px;
+    height: 80px;
+    border-radius: 10px;
+    outline: none;
+    color: #666;
+    font-size: 80px;
+    text-align: right;
+    font-weight: 500;
+    background-color: #eee;
+}
+.number {
+    width: 440px;
+    margin: 20px 5px 0 20px;
+    float: left;
+}
+.number span{
+    width: 130px;
+    height: 60px;
+    margin: 20px 6px 10px 6px;
+    background-color: rgb(39,73,126);
+    color: #eee;
+}
+.operate {
+    margin-top: 35px;
+}
+.operate span{
+    width: 100px;
+    height: 58px;
+    margin: 5px 0;
+    background-color: rgb(220, 127, 0);
+    color: #eee;
+}
+.button span{
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 50px;
+    border: 2px solid #bababa;
+}
+span.smallButton {
+    width: 55px;
+}
+.div_class_log {
+    position: absolute;
+    right: 0;
+    top: 120px;
+    width: 300px;
+}
+.div_class_log li {
+    padding-left: 10px;
+    font-size: 
+}
